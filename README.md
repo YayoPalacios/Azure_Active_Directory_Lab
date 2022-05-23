@@ -1,1 +1,1 @@
-# Azure_Active_Directory_Lab
+# Lab - Build an Active Directory environment with Microsoft Azure
