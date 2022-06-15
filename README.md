@@ -17,7 +17,7 @@ These services control much of the activity that goes on an IT environment.
 
 ## **How does AD work?**
 
-The main Active Directory service is Active Directory Domain Services (AD DS), which is part of the Windows Server operating system. The servers that run AD DS are called domain controllers (DC’s). Organizations normally have multiple DCs, and each one has a copy of the directory for the entire domain. Changes made to the directory on one domain controller — such as password update or the deletion of a user account — are replicated to the other DC’s so they all stay up to date. Desktops, laptops and other devices running Windows (rather than Windows Server) can be part of an Active Directory environment but they do not run AD DS. AD DS relies on several established protocols and standards, including LDAP (Lightweight Directory Access Protocol), Kerberos and DNS (Domain Name System).
+The main Active Directory service is Active Directory Domain Services (AD DS), which is part of the Windows Server operating system. The servers that run AD DS are called domain controllers (DC’s). Organizations normally have multiple DC's, and each one has a copy of the directory for the entire domain. Changes made to the directory on one domain controller — such as password update or the deletion of a user account — are replicated to the other DC’s so they all stay up to date. Desktops, laptops and other devices running Windows (rather than Windows Server) can be part of an Active Directory environment but they do not run AD DS. AD DS relies on several established protocols and standards, including LDAP (Lightweight Directory Access Protocol), Kerberos and DNS (Domain Name System).
 
 It’s important to understand that Active Directory is only for on-premises Microsoft environments. AD and Azure AD are separate but can work together to some degree if your organization has both on-premises and cloud IT environments (a hybrid deployment).
 
@@ -186,9 +186,7 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 Set-ExecutionPolicy Unrestricted
 ```
 
-<br>
-
-[Azure_Active_Directory_Lab/create_users.ps1](https://github.com/YayoPalacios/Azure_Active_Directory_Lab/blob/main/create_users.ps1)
+#### [Azure_Active_Directory_Lab/create_users.ps1](https://github.com/YayoPalacios/Azure_Active_Directory_Lab/blob/main/create_users.ps1)
 
 <br>
 
@@ -236,7 +234,7 @@ foreach ($n in $USER_FIRST_LAST_LIST) {
 
 <br>
 
-### What is setspn in Active Directory?
+## What is setspn in Active Directory?
 
 Reads, modifies, and deletes the Service Principal Names (SPN) directory property for an Active Directory service account. You use SPNs to locate a target principal name for running a service. You can use **setspn** to view the current SPNs, reset the account's default SPNs, and add or delete supplemental SPNs.
 
