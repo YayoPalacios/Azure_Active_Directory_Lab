@@ -102,7 +102,7 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 
 <br>
 
-- I’m installing the [**BgInfo](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo)** utility on our machines due to illustrative purposes. This will display relevant information about our Windows systems.
+- I’m installing the [BgInfo](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo) utility on our machines due to illustrative purposes. This will display relevant information about our Windows systems.
 
 <br>
 
@@ -154,9 +154,9 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 <img src="https://imgur.com/UJpASZo.png" height="85%" width="85%" alt="Services2"/>
 </p>
 
-<br>
-
 [Here’s an in-depth guide on setting up a Domain controller](https://www.manageengine.com/products/active-directory-audit/kb/how-to/how-to-setup-a-domain-controller.html)
+
+<br>
 
 - Keep in mind you’ll need to restart the VM a couple of times throughout the setup. It should look something like this once we’re done with the operation.
 
@@ -186,7 +186,7 @@ Set-ExecutionPolicy Unrestricted
 
 <br>
 
-[Azure_Active_Directory_Lab/create_users.ps1 at main · YayoPalacios/Azure_Active_Directory_Lab](https://github.com/YayoPalacios/Azure_Active_Directory_Lab/blob/main/create_users.ps1)
+[Azure_Active_Directory_Lab/create_users.ps1](https://github.com/YayoPalacios/Azure_Active_Directory_Lab/blob/main/create_users.ps1)
 
 <br>
 
@@ -351,6 +351,8 @@ sudo netdiscover -r 10.0.1.4/24
 <br>
 
 Hope you enjoyed!
+
+<br>
 
 ## Further learning:
 
