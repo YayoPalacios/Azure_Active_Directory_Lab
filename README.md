@@ -270,7 +270,7 @@ Reads, modifies, and deletes the Service Principal Names (SPN) directory propert
 
 <br>
 
-- We’re joining both user machines to our Domain, in my case I named it HOUSEOFSTARK.local.
+- We’re joining both user machines to our Domain, in my case I named it **HOUSEOFSTARK.local**.
 
 <br>
 
