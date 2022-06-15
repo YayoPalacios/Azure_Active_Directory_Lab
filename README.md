@@ -165,7 +165,7 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 <br>
 
 <p align="center">
-<img src="https://imgur.com/4GN8PvW.png" height="75%" width="75%" alt="BGinfo"/>
+<img src="https://imgur.com/4GN8PvW.png" height="65%" width="65%" alt="BGinfo"/>
 </p>
 
 <br>
