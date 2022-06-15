@@ -174,7 +174,7 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 
 <br>
 
-- Now, we’re creating a few AD user accounts applying the following PS script. We can always go about this manually however, I thought this would be a nice addition to put our scripting skills to practice in a very simplistic way.
+- Now, we’re creating a few AD user accounts applying the following PS script. We can always approach this manually however, I thought this would be a nice addition to put our scripting skills to practice in a very simplistic way.
 
 <br>
 
