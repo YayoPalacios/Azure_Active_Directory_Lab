@@ -61,7 +61,7 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 <br>
 
 <p align="center">
-<img src="https://imgur.com/SCCyt3K.png" height="85%" width="85%" alt="RG"/>
+<img src="https://imgur.com/SCCyt3K.png" height="80%" width="80%" alt="RG"/>
 </p>
 
 <br>
@@ -71,13 +71,13 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 <br>
 
 <p align="center">
-<img src="https://imgur.com/hJTWpgJ.png" height="85%" width="85%" alt="Vnet"/>
+<img src="https://imgur.com/hJTWpgJ.png" height="80%" width="80%" alt="Vnet"/>
 </p>
 
 <br>
 
 <p align="center">
-<img src="https://imgur.com/1GISMQh.png" height="85%" width="85%" alt="RG"/>
+<img src="https://imgur.com/1GISMQh.png" height="80%" width="80%" alt="RG"/>
 </p>
 
 <br>
@@ -87,7 +87,7 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 <br>
 
 <p align="center">
-<img src="https://imgur.com/yUd2Rgx.png" height="85%" width="85%" alt="VMDC"/>
+<img src="https://imgur.com/yUd2Rgx.png" height="80%" width="80%" alt="VMDC"/>
 </p>
 
 <br>
@@ -97,7 +97,7 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 <br>
 
 <p align="center">
-<img src="https://imgur.com/ySgd9bC.png" height="85%" width="85%" alt="VMDC"/>
+<img src="https://imgur.com/ySgd9bC.png" height="80%" width="80%" alt="VMDC"/>
 </p>
 
 <br>
@@ -107,7 +107,7 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 <br>
 
 <p align="center">
-<img src="https://imgur.com/qyRY773.png" height="55%" width="55%" alt="BGinfo"/>
+<img src="https://imgur.com/qyRY773.png" height="50%" width="50%" alt="BGinfo"/>
 </p>
 
 <br>
@@ -117,7 +117,7 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 <br>
 
 <p align="center">
-<img src="https://imgur.com/VtiWA8W.png" height="85%" width="85%" alt="RG"/>
+<img src="https://imgur.com/VtiWA8W.png" height="80%" width="80%" alt="RG"/>
 </p>
 
 <br>
@@ -135,25 +135,25 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 <br>
 
 <p align="center">
-<img src="https://imgur.com/tAx8BSo.png" height="85%" width="85%" alt="Services"/>
+<img src="https://imgur.com/tAx8BSo.png" height="80%" width="80%" alt="Services"/>
 </p>
 
 <br>
 
 <p align="center">
-<img src="https://imgur.com/5DAjWzg.png" height="85%" width="85%" alt="DC"/>
+<img src="https://imgur.com/5DAjWzg.png" height="80%" width="80%" alt="DC"/>
 </p>
 
 <br>
 
 <p align="center">
-<img src="https://imgur.com/YxeIAKr.png" height="85%" width="85%" alt="DC"/>
+<img src="https://imgur.com/YxeIAKr.png" height="80%" width="80%" alt="DC"/>
 </p>
 
 <br>
 
 <p align="center">
-<img src="https://imgur.com/UJpASZo.png" height="85%" width="85%" alt="Services2"/>
+<img src="https://imgur.com/UJpASZo.png" height="80%" width="80%" alt="Services2"/>
 </p>
 
 [Here’s an in-depth guide on setting up a Domain controller](https://www.manageengine.com/products/active-directory-audit/kb/how-to/how-to-setup-a-domain-controller.html)
@@ -165,7 +165,7 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 <br>
 
 <p align="center">
-<img src="https://imgur.com/4GN8PvW.png" height="85%" width="85%" alt="BGinfo"/>
+<img src="https://imgur.com/4GN8PvW.png" height="75%" width="75%" alt="BGinfo"/>
 </p>
 
 <br>
@@ -219,13 +219,13 @@ foreach ($n in $USER_FIRST_LAST_LIST) {
 <br>
 
 <p align="center">
-<img src="https://imgur.com/hbfWxkf.png" height="85%" width="85%" alt="PS"/>
+<img src="https://imgur.com/hbfWxkf.png" height="80%" width="80%" alt="PS"/>
 </p>
 
 <br>
 
 <p align="center">
-<img src="https://imgur.com/tU3oHs7.png" height="85%" width="85%" alt="AD"/>
+<img src="https://imgur.com/tU3oHs7.png" height="80%" width="80%" alt="AD"/>
 </p>
 
 <br>
@@ -243,13 +243,13 @@ Reads, modifies, and deletes the Service Principal Names (SPN) directory propert
 <br>
 
 <p align="center">
-<img src="https://imgur.com/B1MsbUh.png" height="85%" width="85%" alt="Setspn"/>
+<img src="https://imgur.com/B1MsbUh.png" height="80%" width="80%" alt="Setspn"/>
 </p>
 
 <br>
 
 <p align="center">
-<img src="https://imgur.com/MSPeXJd.png" height="85%" width="85%" alt="Setspn"/>
+<img src="https://imgur.com/MSPeXJd.png" height="80%" width="80%" alt="Setspn"/>
 </p>
 
 <br>
@@ -259,13 +259,13 @@ Reads, modifies, and deletes the Service Principal Names (SPN) directory propert
 <br>
 
 <p align="center">
-<img src="https://imgur.com/zDREyu3.png" height="85%" width="85%" alt="VM1"/>
+<img src="https://imgur.com/zDREyu3.png" height="80%" width="80%" alt="VM1"/>
 </p>
 
 <br>
 
 <p align="center">
-<img src="https://imgur.com/nOARnU1.png" height="85%" width="85%" alt="VM's"/>
+<img src="https://imgur.com/nOARnU1.png" height="80%" width="80%" alt="VM's"/>
 </p>
 
 <br>
@@ -275,13 +275,13 @@ Reads, modifies, and deletes the Service Principal Names (SPN) directory propert
 <br>
 
 <p align="center">
-<img src="https://imgur.com/o4Maa8U.png" height="85%" width="85%" alt="Join"/>
+<img src="https://imgur.com/o4Maa8U.png" height="80%" width="80%" alt="Join"/>
 </p>
 
 <br>
 
 <p align="center">
-<img src="https://imgur.com/NN5Qw44.png" height="85%" width="85%" alt="Join2"/>
+<img src="https://imgur.com/NN5Qw44.png" height="80%" width="80%" alt="Join2"/>
 </p>
 
 <br>
@@ -297,7 +297,7 @@ Reads, modifies, and deletes the Service Principal Names (SPN) directory propert
 <br>
 
 <p align="center">
-<img src="https://imgur.com/Qt7STjn.png" height="85%" width="85%" alt="compmgmt"/>
+<img src="https://imgur.com/Qt7STjn.png" height="80%" width="80%" alt="compmgmt"/>
 </p>
 
 <br>
