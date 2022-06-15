@@ -165,12 +165,12 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 <br>
 
 <p align="center">
-<img src="https://imgur.com/4GN8PvW.png" height="65%" width="65%" alt="BGinfo"/>
+<img src="https://imgur.com/4GN8PvW.png" height="60%" width="60%" alt="BGinfo"/>
 </p>
 
 <br>
 
-- The next step is to configure **Active Directory Certificate Services**. ****This process is very similar to the steps listed above (Server Manager > Add roles and features > Check Active Directory Certificate Services).
+- The next step is to configure **Active Directory Certificate Services**. This process is very similar to the steps listed above (Server Manager > Add roles and features > Check Active Directory Certificate Services).
 
 <br>
 
