@@ -114,6 +114,8 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 
 - At this point, our VM should look as follows.
 
+<br>
+
 <p align="center">
 <img src="https://imgur.com/VtiWA8W.png" height="85%" width="85%" alt="RG"/>
 </p>
