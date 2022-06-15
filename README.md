@@ -51,29 +51,47 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 
 - We’ll generate a resource group to easily contain and manage our project components.
 
-![RG.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/RG.png)
+<p align="center">
+<img src="https://imgur.com/SCCyt3K.png" height="85%" width="85%" alt="RG"/>
+</p>
 
 - Then, we’re going to create our own virtual network which we’ll use to link all our resources.
 
-![VNet.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/VNet.png)
+<p align="center">
+<img src="https://imgur.com/hJTWpgJ.png" height="85%" width="85%" alt="Vnet"/>
+</p>
 
-![VNet3.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/VNet3.png)
+
+<p align="center">
+<img src="https://imgur.com/1GISMQh.png" height="85%" width="85%" alt="RG"/>
+</p>
+
 
 - Next, we’ll spin up our first VM that we’re going to configure as our Domain Controller. For this lab, we’re using a **Windows Server 2019** image from MS Azure.
 
-![VMDC.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/VMDC.png)
+<p align="center">
+<img src="https://imgur.com/yUd2Rgx.png" height="85%" width="85%" alt="VMDC"/>
+</p>
+
 
 - We’ll connect to our VM using its IP address via [Remote Desktop](https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c).
 
-![AD-Lab-DC.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/AD-Lab-DC.png)
+<p align="center">
+<img src="https://imgur.com/ySgd9bC.png" height="85%" width="85%" alt="VMDC"/>
+</p>
 
 - I’m installing the [**BgInfo](https://docs.microsoft.com/en-us/sysinternals/downloads/bginfo)** utility on our machines due to illustrative purposes. This will display relevant information about our Windows systems.
 
-![Untitled](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/Untitled%202.png)
+<p align="center">
+<img src="https://imgur.com/qyRY773.png" height="85%" width="85%" alt="BGinfo"/>
+</p>
 
 - At this point, our VM should look as follows.
 
-![DC2.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/DC2.png)
+<p align="center">
+<img src="https://imgur.com/VtiWA8W.png" height="85%" width="85%" alt="RG"/>
+</p>
+
 
 - Now, we’ll go ahead and configure our services to promote this machine to a Domain Controller.
 
@@ -81,19 +99,34 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 
 - Then, on the **Server Roles** tab, check the **Active Directory Domain services** checkbox. Click on Next and go through the remaining installation dialogs until it’s completed.
 
-![services.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/services.png)
+<p align="center">
+<img src="https://imgur.com/tAx8BSo.png" height="85%" width="85%" alt="Services"/>
+</p>
 
-![DC3.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/DC3.png)
 
-![DC4.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/DC4.png)
+<p align="center">
+<img src="https://imgur.com/5DAjWzg.png" height="85%" width="85%" alt="DC"/>
+</p>
 
-![services2.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/services2.png)
+
+<p align="center">
+<img src="https://imgur.com/YxeIAKr.png" height="85%" width="85%" alt="DC"/>
+</p>
+
+
+<p align="center">
+<img src="https://imgur.com/UJpASZo.png" height="85%" width="85%" alt="Services2"/>
+</p>
+
 
 [Here’s an in-depth guide on setting up a Domain controller](https://www.manageengine.com/products/active-directory-audit/kb/how-to/how-to-setup-a-domain-controller.html)
 
 - Keep in mind you’ll need to restart the VM a couple of times throughout the setup. It should look something like this once we’re done with the operation.
 
-![bginfo.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/bginfo.png)
+<p align="center">
+<img src="https://imgur.com/4GN8PvW.png" height="85%" width="85%" alt="BGinfo"/>
+</p>
+
 
 - The next step is to configure **Active Directory Certificate Services**. ****This process is very similar to the steps listed above (Server Manager > Add roles and features > Check Active Directory Certificate Services).
 
@@ -133,9 +166,15 @@ foreach ($n in $USER_FIRST_LAST_LIST) {
 }
 ```
 
-![PS2.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/PS2.png)
+<p align="center">
+<img src="https://imgur.com/hbfWxkf.png" height="85%" width="85%" alt="PS"/>
+</p>
 
-![AD2.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/AD2.png)
+
+<p align="center">
+<img src="https://imgur.com/tU3oHs7.png" height="85%" width="85%" alt="AD"/>
+</p>
+
 
 - We’re setting up the Service Principal Names for our **SQLService** account using the **setspn** utility.
 
@@ -145,31 +184,52 @@ Reads, modifies, and deletes the Service Principal Names (SPN) directory propert
 
 [Setspn | Microsoft Docs](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc731241(v=ws.11))
 
-![setspn.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/setspn.png)
+<p align="center">
+<img src="https://imgur.com/B1MsbUh.png" height="85%" width="85%" alt="Setspn"/>
+</p>
 
-![setspn2.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/setspn2.png)
+<p align="center">
+<img src="https://imgur.com/MSPeXJd.png" height="85%" width="85%" alt="Setspn"/>
+</p>
 
 - Now, we’re spinning up a couple of user VM’s for our environment, see specs below.
 
-![VM1.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/VM1.png)
+<p align="center">
+<img src="https://imgur.com/zDREyu3.png" height="85%" width="85%" alt="VM1"/>
+</p>
 
-![VM's.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/VMs.png)
+<p align="center">
+<img src="https://imgur.com/nOARnU1.png" height="85%" width="85%" alt="VM's"/>
+</p>
 
 - We’re joining both user machines to our Domain, in my case I named it HOUSEOFSTARK.local.
 
-![join.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/join.png)
+<p align="center">
+<img src="https://imgur.com/o4Maa8U.png" height="85%" width="85%" alt="Join"/>
+</p>
 
-![join2.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/join2.png)
+<p align="center">
+<img src="https://imgur.com/NN5Qw44.png" height="85%" width="85%" alt="Join2"/>
+</p>
 
-![VMss.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/VMss.png)
+<p align="center">
+<img src="https://imgur.com/yEusWem.png" height="85%" width="85%" alt="VM's"/>
+</p>
+
 
 - We’re now adding our two main user accounts to our local **Administrators** group via **Computer Management**. Don’t forget we need to log in as a domain administrator to set these permissions on both of our VM’s.
 
-![compmgmt.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/compmgmt.png)
+<p align="center">
+<img src="https://imgur.com/Qt7STjn.png" height="85%" width="85%" alt="compmgmt"/>
+</p>
+
 
 - Our AD ecosystem should be all set now.
 
-![VMss3.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/VMss3.png)
+<p align="center">
+<img src="https://imgur.com/hDZOM6O.png" height="85%" width="85%" alt="AD_Env"/>
+</p>
+
 
 - All we need to do know is go through a quick Linux install (Ubuntu Server 20.04 LTS). The initial plan was to spin up a Kali machine however, I noticed Offensive Security retired the image from the Azure Marketplace.
 
@@ -183,11 +243,15 @@ Reads, modifies, and deletes the Service Principal Names (SPN) directory propert
 sudo netdiscover -r 10.0.1.4/24
 ```
 
-![netdiscover.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/netdiscover.png)
+<p align="center">
+<img src="https://imgur.com/g3bbVhv.png" height="85%" width="85%" alt="netdiscover"/>
+</p>
 
 - Here’s an [nmap](https://linux.die.net/man/1/nmap) scan of our domain.
 
-![nmap2.png](Lab%20-%20Build%20an%20Active%20Directory%20environment%20with%20M%2065026a1095d540afbff4641c0611a2ba/nmap2.png)
+<p align="center">
+<img src="https://imgur.com/0iYNXLi.png" height="85%" width="85%" alt="RG"/>
+</p>
 
 Hope you enjoyed!
 
