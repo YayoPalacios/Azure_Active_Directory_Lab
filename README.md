@@ -3,6 +3,8 @@
 > This project was inspired by The Cyber Mentor’s [video](https://www.youtube.com/watch?v=xftEuVQ7kY0&t=555s) where Heath configures a local AD environment which I transposed to MS Azure ruling out any performance issues.
 > 
 
+## [YouTube video in progress ←](https://www.youtube.com/channel/UCTowqD_AhGEF_z5-MlSN_ZQ)
+
 <br>
 
 ## What is Active Directory?
