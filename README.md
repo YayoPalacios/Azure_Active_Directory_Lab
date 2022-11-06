@@ -5,6 +5,8 @@
 
 ## [Here's my YouTube video ←](https://youtu.be/2aAQExAnTmQ)
 
+<a href="https://www.youtube.com/watch?v=2aAQExAnTmQ&t=17s"><img src="https://imgur.com/hf2gUnK.jpg" height="70%" width="70%"></a>
+
 <br>
 
 ## What is Active Directory?
