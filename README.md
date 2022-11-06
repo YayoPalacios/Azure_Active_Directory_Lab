@@ -182,15 +182,13 @@ The whole intention is getting ourselves a practice ground to get our hands dirt
 
 - Prior to executing it, make sure to run the following cmdlet:
 
-<br>
-
 ```powershell
 Set-ExecutionPolicy Unrestricted
 ```
 
-#### [Azure_Active_Directory_Lab/create_users.ps1](https://github.com/YayoPalacios/Azure_Active_Directory_Lab/blob/main/create_users.ps1)
-
 <br>
+
+### [Azure_Active_Directory_Lab/create_users.ps1](https://github.com/YayoPalacios/Azure_Active_Directory_Lab/blob/main/create_users.ps1)
 
 ```powershell
 $PASSWORD_FOR_USERS   = "Password1"
@@ -327,8 +325,6 @@ Reads, modifies, and deletes the Service Principal Names (SPN) directory propert
 <br>
 
 - We’ll run [netdiscover](https://helpmanual.io/man8/netdiscover/) to find our hosts.
-
-<br>
 
 ```bash
 sudo netdiscover -r 10.0.1.4/24
